@@ -1,0 +1,62 @@
+/*
+
+filename: Pham Duc Minh Quan
+
+author: Pham Duc Minh Quan
+
+created: 30/9/2025
+
+last modified: 30/9/2025
+
+description: CSS styles for lab04.html
+
+*/
+/*Font*/
+ * { font-family: calibri, sans-serif;
+color: #2F4F4F; } 
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }      
+/*Headings color*/
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+ * { font-family: calibri, sans-serif; } 
+ h2 { 
+    color: rgb(0,128,128); 
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }  
+/*Aside Hover*/
+aside:hover {
+    display: none;
+}
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+aside, footer { font-style: italic; }
+/*Allign the word images to center*/
+#images {
+         text-align : center;
+         }
+/*Set border to table and set Jan and Feb to the right side*/
+table, th, td {
+    border: 1px solid black;
+}
+.right-align {
+    text-align: right;
+}
+/*Transform bullet points into squares*/
+ol ul {
+    list-style-type: square;
+}
